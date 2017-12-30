@@ -1,0 +1,37 @@
+<div>
+  <div class="row">
+    <div class="col-md-12" style="margin-top: 10px;">
+      <span style="float: right; margin-right: 10px; font-size:12px; margin-top:10px; color:gray"> <i class="fa fa-gear"></i>&nbsp;Settings </span>
+
+      <h3 class="page-header" style="margin-bottom: 0px; margin-top: 0px; color:#c7475e; margin-left: 11px;"><i class="fa fa-user"></i>&nbsp;Settings</h3>
+    </div>
+  </div>
+  <div class="box box-info">
+    <div class="row">
+    </div>
+  </div>
+</div>
+<div id="exTab1" class="container">
+  <ul class="nav nav-pills">
+    <li class="active">
+      <a href="#1a" data-toggle="tab">Profile</a>
+    </li>
+    <li>
+      <a href="#2a" data-toggle="tab">Password</a>
+    </li>
+    <li>
+      <a href="#3a" data-toggle="tab">Notifications</a>
+    </li>
+  </ul>
+  <div class="tab-content clearfix">
+    <div class="tab-pane active" id="1a">
+      <app-user-settings-profile-component></app-user-settings-profile-component>
+    </div>
+    <div class="tab-pane" id="2a">
+      <app-user-settings-password-component></app-user-settings-password-component>
+    </div>
+    <div class="tab-pane" id="3a">
+      <app-user-settings-notifications-component></app-user-settings-notifications-component>
+    </div>
+  </div>
+</div>
