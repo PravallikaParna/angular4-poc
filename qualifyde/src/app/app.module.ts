@@ -23,6 +23,6 @@ import { UserSettingsNotificationsComponentComponent } from './user-settings-not
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { 
-  //Angular4 POC
+export class AppModule {
+  // Angular4 POC
 }
